@@ -1,18 +1,22 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .navbar {
     padding: 23px 0;
     box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.3);
     background-color: #fff;
 }
+.container-fluid {
+    margin: 0 50px;
+}
 .navbar-brand {
     font-family: Segoe Print;
     font-size: 28px;
     color: #000;
     line-height: 23px;
-    margin-left: -10px;
+    margin-left: -13px;
     margin-top: -5px;
 }
 .navbar-brand span{
@@ -30,29 +34,26 @@
 .nav-link:hover::after{
     content:'';
     display: block;
+    height: 2px;
     border-bottom: 2px solid #717CFF;
     width: 50%;
     padding-top: 3px;
     margin-bottom: -5px;
 }
-.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .btn {
+
+.navbar-light .navbar-nav .nav-link {
     color: #000;
-    padding: 10px 28px;
-    font-size: 16px;
+    padding-right: 65px;
 }
-.navbar-nav {
-    margin-right: -13px;
-}
-.btn{
-    border: 2px solid #717CFF;
-    background: none;
+.navbar-nav .btnn {
+    border: 1px solid #717CFF;
+    padding: 8px 30px;
     border-radius: 15px;
-    padding: 8px 28px;
     text-decoration: none;
     color: #000;
+    transition: 0.3s;
 }
-
-.navbar-nav .btn:hover {
+.navbar-nav .btnn:hover {
     background-color: #717CFF;
     color: #fff;
 }
@@ -60,58 +61,95 @@
 
 /* home */
 .home {
-    margin-top: 140px;
-    padding: 30px;
+    margin-top: 185px;
     box-sizing: border-box;
     position: relative;
+    margin-bottom: 10px;
 }
 .home h1 {
-    font-size: 50px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 74px;
+    width: 475px;
 }
 .home h1 span {
     color: #717CFF;
 }
-.home h5 {
-    margin-top: 93px;
+.home p {
+    margin-top: 19px;
     font-weight: 400;
-    width: 570px;
+    width: 579px;
     font-size: 19px;
     color: #7d7d7d;
-    margin-bottom: 33px;
-    line-height: 25px;
 } 
 
-.home .tombol{
+.home .btnn{
     background-color: #717CFF;
-    padding: 15px 24px;
+    padding: 15px 34px;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 20px;
     text-decoration: none;
-    transition: 0.5s;
 }
-.tombol .arah {
-    margin-left: 46px;
+.btnn .fas {
+    margin-left: 36px;
+    margin-top: 80px;
 }
 
 .home .icon {
-    margin-top: 100px;
+    margin-top: 95px;
     font-size: 20px;
 }
 .home .icon .fab {
     margin: 0 20px;
 }
-.fa-twitter {
-    color: #7c86fc;
+.fa-facebook-f {
+    color: #3C5B9A;
 }
 .fa-twitter {
-    color: #5b68fd;
+    color: #236CD9;
 }
 .fa-instagram {
     color: red;
 }
+.col-5 img {
+    margin-top: -35px;
+    position: relative;
+}
+.home .kotak {
+    width: 560px;
+    height: 410px;
+    border-radius: 590px 0 0 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(189.86deg, #8471FF 8.06%, #717CFF 53.52%);
+    opacity: 0.7;
+    position: absolute;
+}
 
-.home img {
-    margin-top: -3.7em;
-    margin-left: -4em;
+
+/* Univ features */
+.univ {
+    background: #FCFDF8;
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.univ h3 {
+    font-size: 23px;
+    text-align: center;
+    color: #373737;
+}
+
+.log:nth-child(1) {
+    margin-top: 86px;
+}
+.log:nth-child(3) {
+    margin-top: 60px;
+}
+.log:nth-child(4) {
+    margin-top: 49px;
+}
+.log img {
+    margin-top: -10px;
 }
