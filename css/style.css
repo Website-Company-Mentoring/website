@@ -3,14 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .navbar {
     padding: 23px 0;
     box-shadow: 0px 0px 10px rgba(17, 17, 17, 0.3);
     background-color: #fff;
 }
+
 .container-fluid {
     margin: 0 50px;
 }
+
 .navbar-brand {
     font-family: Segoe Print;
     font-size: 28px;
@@ -19,32 +22,41 @@
     margin-left: -13px;
     margin-top: -5px;
 }
-.navbar-brand span{
+
+.navbar-brand span {
     position: absolute;
     font-size: 15px;
     font-family: sedan;
     margin-left: 55px;
 }
+
 .navbar-light .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
     font-family: 'Segoe UI';
+    position: relative;
 }
 
-.nav-link:hover::after{
-    content:'';
-    display: block;
+.nav-link::after {
+    content: '';
+    position: absolute;
     height: 2px;
-    border-bottom: 2px solid #717CFF;
+    background-color: #717CFF;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover:after {
     width: 50%;
-    padding-top: 3px;
-    margin-bottom: -5px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #000;
-    padding-right: 65px;
+    margin-left: 70px;
 }
+
 .navbar-nav .btnn {
     border: 1px solid #717CFF;
     padding: 8px 30px;
@@ -52,7 +64,9 @@
     text-decoration: none;
     color: #000;
     transition: 0.3s;
+    margin-left: 70px;
 }
+
 .navbar-nav .btnn:hover {
     background-color: #717CFF;
     color: #fff;
@@ -64,26 +78,28 @@
     margin-top: 185px;
     box-sizing: border-box;
     position: relative;
-    margin-bottom: 10px;
 }
+
 .home h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 74px;
     width: 475px;
 }
+
 .home h1 span {
     color: #717CFF;
 }
+
 .home p {
     margin-top: 19px;
     font-weight: 400;
     width: 579px;
     font-size: 19px;
     color: #7d7d7d;
-} 
+}
 
-.home .btnn{
+.home .btnn {
     background-color: #717CFF;
     padding: 15px 34px;
     color: #fff;
@@ -91,31 +107,38 @@
     font-size: 20px;
     text-decoration: none;
 }
+
 .btnn .fas {
     margin-left: 36px;
     margin-top: 80px;
 }
 
 .home .icon {
-    margin-top: 95px;
+    margin-top: 80px;
     font-size: 20px;
 }
+
 .home .icon .fab {
     margin: 0 20px;
 }
+
 .fa-facebook-f {
     color: #3C5B9A;
 }
+
 .fa-twitter {
     color: #236CD9;
 }
+
 .fa-instagram {
     color: red;
 }
+
 .col-5 img {
     margin-top: -35px;
     position: relative;
 }
+
 .home .kotak {
     width: 560px;
     height: 410px;
@@ -131,10 +154,10 @@
 /* Univ features */
 .univ {
     background: #FCFDF8;
-    
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .univ h3 {
     font-size: 23px;
     text-align: center;
@@ -144,12 +167,15 @@
 .log:nth-child(1) {
     margin-top: 86px;
 }
+
 .log:nth-child(3) {
     margin-top: 60px;
 }
+
 .log:nth-child(4) {
     margin-top: 49px;
 }
+
 .log img {
     margin-top: -10px;
 }
