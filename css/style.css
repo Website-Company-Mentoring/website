@@ -156,6 +156,7 @@
     background: #FCFDF8;
     padding-top: 70px;
     padding-bottom: 70px;
+    min-height: 423px;
 }
 
 .univ h3 {
@@ -178,4 +179,95 @@
 
 .log img {
     margin-top: -10px;
+}
+
+/* ourservices */
+
+.ourservices {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ourservices .heading h3 {
+    color: #373737;
+    font-size: 37px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.ourservices .heading p {
+    font-size: 20px;
+    color: #7D7D7D;
+    margin-bottom: 100px;
+}
+
+.content .box {
+    padding: 30px;
+    border: 2px solid #717dff00;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(228, 228, 228);
+    max-height: 370px;
+}
+
+.content .box:hover {
+    border: 2px solid #717CFF;
+}
+
+
+.content .box h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #37474F;
+}
+
+.content .box p {
+    color: #7D7D7D;
+    font-size: 16px;
+    margin-top: 13px;
+    max-width: 185px;
+}
+
+.content .box a {
+    text-decoration: none;
+    color: #717CFF;
+    display: inline-block;
+    margin-top: -16px;
+}
+
+.content .box a i {
+    margin-left: 18px;
+}
+
+.box i {
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.un {
+    background-color: #717CFF;
+    color: white;
+}
+
+.plane {
+    background-color: #FA706C;
+    color: white;
+}
+
+.square {
+    background-color: #FF5959;
+    color: #fff;
+}
+
+.cek {
+    background-color: #70CE88;
+    color: #fff;
+}
+
+.hom {
+    background-color: #5C96FF;
+    color: #fff;
 }
