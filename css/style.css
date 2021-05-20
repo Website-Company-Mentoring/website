@@ -277,8 +277,9 @@
 .news {
     padding-top: 70px;
     padding-bottom: 25px;
-    
+
 }
+
 .news .heading h3 {
     color: #373737;
     font-size: 37px;
@@ -291,32 +292,40 @@
     color: #7D7D7D;
     margin-bottom: 100px;
 }
+
 /* kids */
 .kids {
-    margin: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
+
 .kids p {
     padding-top: 10px;
     font-size: 20px;
 }
+
 .card {
-    
+
     padding-bottom: 50px;
     box-shadow: 0 10px 5px 0 #eaeaea;
     margin: 30px;
 }
-.button {
-    padding-bottom: 70px;
-    justify-content: center;
+
+.kids .btnn {
+    background-color: #717CFF;
+    padding: 15px 34px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 /* event */
 .event {
     padding-top: 70px;
     padding-bottom: 70px;
-    
+
 }
+
 .event .heading h3 {
     color: #373737;
     font-size: 37px;
