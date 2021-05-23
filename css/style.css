@@ -238,7 +238,7 @@
     margin-left: 18px;
 }
 
-.box i {
+.content .box i {
     width: 65px;
     height: 65px;
     text-align: center;
@@ -275,6 +275,7 @@
 
 /* news */
 .news {
+    background: #FCFDF8;
     padding-top: 70px;
     padding-bottom: 25px;
 
@@ -295,7 +296,8 @@
 
 /* kids */
 .kids {
-    padding-bottom: 10px;
+    padding-bottom: 70px;
+    background: #FCFDF8;
 }
 
 .kids p {
@@ -303,11 +305,11 @@
     font-size: 20px;
 }
 
-.card {
-
-    padding-bottom: 50px;
-    box-shadow: 0 10px 5px 0 #eaeaea;
-    margin: 30px;
+.kids .card {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .kids .btnn {
@@ -334,6 +336,47 @@
 }
 
 .event .heading p {
+    font-size: 20px;
+    color: #7D7D7D;
+    margin-bottom: 100px;
+}
+
+.event .isi .box {
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.event .isi .box .tanggal {
+    padding: 18px;
+    background: #717dff3d;
+    line-height: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.event .isi .box .tanggal p,
+small {
+    color: #717CFF;
+    font-weight: 500;
+}
+
+
+/* area */
+.area {
+    padding-top: 70px;
+    padding-bottom: 25px;
+
+}
+
+.area .heading h3 {
+    color: #373737;
+    font-size: 37px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.area .heading p {
     font-size: 20px;
     color: #7D7D7D;
     margin-bottom: 100px;
