@@ -54,7 +54,7 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #000;
-    margin-left: 70px;
+    margin-left: 62px;
 }
 
 .navbar-nav .btnn {
@@ -276,7 +276,7 @@
 /* news */
 .news {
     background: #FCFDF8;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 25px;
 
 }
@@ -323,9 +323,8 @@
 
 /* event */
 .event {
-    padding-top: 70px;
-    padding-bottom: 70px;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .event .heading h3 {
@@ -342,7 +341,7 @@
 }
 
 .event .isi .box {
-    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.08);
     padding: 40px;
     border-radius: 10px;
 }
@@ -364,7 +363,8 @@ small {
 
 /* area */
 .area {
-    padding-top: 70px;
+    background: #FCFDF8;
+    padding-top: 100px;
     padding-bottom: 25px;
 
 }
@@ -380,4 +380,67 @@ small {
     font-size: 20px;
     color: #7D7D7D;
     margin-bottom: 100px;
+}
+
+
+
+/* Testimonial */
+
+.testimonial {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonial .heading h3 {
+    color: #373737;
+    font-size: 37px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.testimonial .heading p {
+    font-size: 20px;
+    color: #7D7D7D;
+}
+
+.carousel-indicators {
+    bottom: -80px;
+}
+
+.carousel-indicators li {
+    background: #7c7c7c7a;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+}
+
+.carousel-indicators li.active {
+    background: #717CFF;
+}
+
+.carousel-inner .carousel-item {
+    padding: 100px 30px 30px;
+}
+
+.testimonial .card {
+    padding: 30px 30px 40px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    border: none;
+}
+
+.testimonial .card .nama {
+    line-height: 4px;
+}
+
+.testimonial .card .nama p {
+    font-size: 20px;
+}
+
+.testimonial .card .nama small {
+    font-size: 14px;
+    color: #37474fc2;
+    ;
 }
