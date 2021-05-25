@@ -324,7 +324,7 @@
 /* event */
 .event {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 140px;
 }
 
 .event .heading h3 {
@@ -365,7 +365,7 @@ small {
 .area {
     background: #FCFDF8;
     padding-top: 100px;
-    padding-bottom: 25px;
+    padding-bottom: 100px;
 
 }
 
@@ -379,9 +379,12 @@ small {
 .area .heading p {
     font-size: 20px;
     color: #7D7D7D;
-    margin-bottom: 100px;
 }
 
+.area .kota {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
 
 
 /* Testimonial */
