@@ -573,6 +573,10 @@ small {
         font-size: 20px;
     }
 
+    .navbar-brand span {
+        margin-left: 36px;
+    }
+
     .home h1 {
         font-size: 30px;
         max-width: 300px;
