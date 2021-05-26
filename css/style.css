@@ -75,7 +75,7 @@
 
 /* home */
 .home {
-    margin-top: 185px;
+    padding-top: 185px;
     box-sizing: border-box;
     position: relative;
 }
@@ -459,4 +459,113 @@ small {
     border-radius: 10px;
     font-size: 20px;
     text-decoration: none;
+}
+
+
+
+
+
+/* Responsive ------------------------ */
+
+@media (max-width: 991.98px) {
+    .home {
+        padding-top: 165px;
+    }
+
+    .home .kotak {
+        width: 460px;
+    }
+
+    .home h1 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 400px;
+    }
+
+    .home p {
+        margin-top: 40px;
+        width: 430px;
+        font-size: 18px;
+    }
+
+    .home .icon {
+        margin-top: 40px;
+    }
+
+    .btnn .fas {
+        margin-top: 60px;
+    }
+
+    .col-5 img {
+        width: 320px;
+    }
+
+    .univ .row {
+        text-align: center;
+    }
+
+    .ourservices .row .col-lg-4 {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .ourservices .heading p,
+    .news .heading p,
+    .event .heading p,
+    .area .heading p,
+    .testimonial .heading p {
+        font-size: 16px;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .home .icon {
+        margin-left: 230px;
+        display: flex;
+    }
+
+    .home .icon a {
+        margin-top: -65px;
+    }
+
+    .col-5 {
+        display: none;
+    }
+
+    .home .btnn {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .content .box p {
+        max-width: 300px;
+    }
+
+    .log img {
+        width: 200px;
+    }
+
+    .ourservices .row .col-lg-4 {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .col-md {
+        max-width: 450px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .talk .btnn {
+        padding: 12px 19px;
+        font-size: 16px;
+    }
+
+    .talk img {
+        display: none;
+    }
 }
