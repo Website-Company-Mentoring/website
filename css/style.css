@@ -461,6 +461,53 @@ small {
     text-decoration: none;
 }
 
+.footer{
+    background-color: #717CFF;
+    color: #fff;
+    font-family: 'Segoe UI';
+}
+/* 
+.footer .navbar-brand {
+    font-family: Segoe Print;
+    font-size: 28px;
+    color: #fff;
+    line-height: 23px;font-family: Segoe Print;
+}
+
+.footer .navbar-brand span {
+    font-size: 15px;
+    font-family: sedan;
+    margin-left: 55px;
+} */
+
+.footer .extraordinary{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer .subextraordinary{
+    margin-top: -10px;
+}
+
+.footer .row .title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer .row p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.footer .row a {
+    color: #fff;
+    text-decoration-color: #fff;
+}
+
+.footer .row i {
+    color: #fff;
+    font-size: 23px;
+}
 
 
 
@@ -512,6 +559,10 @@ small {
 
     .ourservices .row .col-lg-4 {
         max-width: 340px;
+    }
+
+    .footer .row{
+        align-items: center;
     }
 }
 
