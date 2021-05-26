@@ -485,7 +485,7 @@ small {
     .home h1 {
         font-size: 40px;
         line-height: 50px;
-        width: 400px;
+        max-width: 400px;
     }
 
     .home p {
@@ -529,15 +529,6 @@ small {
         width: 100%;
     }
 
-    .home .icon {
-        margin-left: 230px;
-        display: flex;
-    }
-
-    .home .icon a {
-        margin-top: -65px;
-    }
-
     .col-5 {
         display: none;
     }
@@ -576,16 +567,127 @@ small {
     }
 }
 
-@media (max-width: 450px) {
-    .home p {
-        width: 330px;
+@media (max-width: 425px) {
+
+    .navbar-brand {
+        font-size: 20px;
     }
 
-    .home .icon {
-        margin-left: 220px;
+    .home h1 {
+        font-size: 30px;
+        max-width: 300px;
+    }
+
+    .home p {
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .home .btnn {
+        padding: 8px 10px;
     }
 
     .home .icon .fab {
-        margin: 0 14px;
+        margin: 0 8px;
+    }
+
+    .btnn .fas {
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+
+    .log img {
+        width: 150px;
+    }
+
+    .log:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .ourservices .heading h3,
+    .news .heading h3,
+    .event .heading h3,
+    .area .heading h3,
+    .testimonial .heading h3 {
+        font-size: 26px;
+    }
+
+    .ourservices .heading p,
+    .news .heading p,
+    .event .heading p,
+    .area .heading p,
+    .testimonial .heading p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .content .box {
+        padding: 10px;
+        max-height: 280px;
+    }
+
+    .content .box i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .content .box h4 {
+        font-size: 20px;
+    }
+
+    .content .box p {
+        max-width: 250px;
+        font-size: 14px;
+    }
+
+    .kids .card {
+        display: flex;
+        height: 170px;
+        flex-direction: row;
+    }
+
+    .kids p {
+        font-size: 16px;
+    }
+
+    .kids .card img {
+        width: 120px;
+        height: 100px;
+    }
+
+    .kids .btnn {
+        font-size: 16px;
+        padding: 8px 10px
+    }
+
+    .event .isi .box {
+        padding: 10px 30px;
+    }
+
+    .area .kota {
+        padding-top: 20px;
+    }
+
+    .area .kota .col-md {
+        text-align: center;
+    }
+
+    .area .kota img {
+        width: 80%;
+    }
+
+    .area .kota h5 {
+        font-size: 18px;
+    }
+
+    .area .kota p {
+        font-size: 14px;
+    }
+
+    .talk h1 {
+        font-size: 24px;
     }
 }
