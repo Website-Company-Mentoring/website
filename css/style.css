@@ -554,7 +554,7 @@ small {
         margin: auto;
     }
 
-    .col-md {
+    .ourservices .col-md {
         max-width: 450px;
         text-align: center;
         margin: auto;
@@ -567,5 +567,19 @@ small {
 
     .talk img {
         display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .home p {
+        width: 330px;
+    }
+
+    .home .icon {
+        margin-left: 220px;
+    }
+
+    .home .icon .fab {
+        margin: 0 14px;
     }
 }
