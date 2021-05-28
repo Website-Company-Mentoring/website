@@ -461,11 +461,12 @@ small {
     text-decoration: none;
 }
 
-.footer{
+.footer {
     background-color: #717CFF;
     color: #fff;
     font-family: 'Segoe UI';
 }
+
 /* 
 .footer .navbar-brand {
     font-family: Segoe Print;
@@ -480,12 +481,12 @@ small {
     margin-left: 55px;
 } */
 
-.footer .extraordinary{
+.footer .extraordinary {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.footer .subextraordinary{
+.footer .subextraordinary {
     margin-top: -10px;
 }
 
@@ -561,7 +562,7 @@ small {
         max-width: 340px;
     }
 
-    .footer .row{
+    .footer .row {
         align-items: center;
     }
 }
@@ -639,7 +640,7 @@ small {
     }
 
     .home .btnn {
-        padding: 8px 10px;
+        padding: 10px 12px;
     }
 
     .home .icon .fab {
@@ -720,6 +721,28 @@ small {
 
     .event .isi .box {
         padding: 10px 30px;
+    }
+
+    .event .isi .box .desk {
+        font-size: 16px;
+    }
+
+    .event .isi .box .tanggal {
+        padding: 12px;
+    }
+
+    .event .isi .box .tanggal p,
+    small {
+        font-size: 12px;
+    }
+
+    .event .isi .box p,
+    .event .isi .box .jam {
+        font-size: 14px;
+    }
+
+    .event .isi .box .learn {
+        font-size: 14px;
     }
 
     .area .kota {
