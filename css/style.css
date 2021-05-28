@@ -495,6 +495,10 @@ small {
     font-weight: bold;
 }
 
+.footer .row img {
+    width: 100px;
+}
+
 .footer .row p {
     font-size: 17px;
     font-weight: 300;
@@ -509,8 +513,6 @@ small {
     color: #fff;
     font-size: 23px;
 }
-
-
 
 
 /* Responsive ------------------------ */
@@ -562,9 +564,11 @@ small {
         max-width: 340px;
     }
 
-    .footer .row {
-        align-items: center;
+    .footer .row .title {
+        font-size: 20px;
     }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -724,7 +728,7 @@ small {
     }
 
     .event .isi .box .desk {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     .event .isi .box .tanggal {
@@ -749,6 +753,10 @@ small {
         padding-top: 20px;
     }
 
+    .area .kota .carousel-inner .carousel-item {
+        padding: 30px 30px 30px;
+    }
+
     .area .kota .col-md {
         text-align: center;
     }
@@ -765,7 +773,37 @@ small {
         font-size: 14px;
     }
 
+    .testimonial .carousel-inner .carousel-item {
+        padding: 30px 30px 20px;
+    }
+
+    .testimonial .card {
+        padding: 30px 30px 30px;
+    }
+
+    .testimonial .card img {
+        width: 45px;
+    }
+
+    .testimonial .card .nama p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .testimonial .card .mt-4 p {
+        font-size: 14px;
+    }
+
     .talk h1 {
         font-size: 24px;
     }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer .row p {
+        font-size: 14px;
+    }
+
 }
