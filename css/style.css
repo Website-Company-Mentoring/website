@@ -802,4 +802,8 @@ small {
         font-size: 14px;
     }
 
+    .footer img.w-75 {
+        margin-left: 50px;
+    }
+
 }
