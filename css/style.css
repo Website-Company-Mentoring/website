@@ -224,7 +224,7 @@
     color: #7D7D7D;
     font-size: 16px;
     margin-top: 13px;
-    max-width: 185px;
+    max-width: 242px;
 }
 
 .content .box a {
@@ -302,7 +302,12 @@
 
 .kids p {
     padding-top: 10px;
+    color: #7d7d7d;
     font-size: 20px;
+}
+
+.kids span {
+    font-weight: 500;
 }
 
 .kids .card {
@@ -310,6 +315,13 @@
     border: none;
     box-shadow: 0 3px 25px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+.kids .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
 }
 
 .kids .btnn {
@@ -706,12 +718,12 @@ small {
     }
 
     .kids p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .kids .card img {
-        width: 120px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
     }
 
     .kids .btnn {
